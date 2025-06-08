@@ -18,7 +18,7 @@ export class UsersService {
     if (nameExists) {
       throw new BadRequestException("A user with the given name already exists.")
     }
-    
+
     const emailExists = this.users.some(userDB => userDB.email === user.email)
     if (emailExists) {
       throw new BadRequestException("A user with the given email already exists.")
@@ -33,8 +33,8 @@ export class UsersService {
     return newUser;
   }
 
-  findAll() {
-    return `This action returns all users`;
+  findAll(): User[] {
+    return this.users;
   }
 
   remove(id: number) {
