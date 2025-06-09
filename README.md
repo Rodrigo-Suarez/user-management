@@ -30,6 +30,23 @@ Aplicación **fullstack** desarrollada como prueba técnica para la **gestión d
 
 ## 🖥️ Pasos para instalar y correr el proyecto
 
+
+### ✅ Requisitos previos
+
+Antes de comenzar, asegúrate de tener instalado:
+
+* [Node.js](https://nodejs.org/) (recomendado: versión 18 o superior)
+* [Git](https://git-scm.com/) para clonar el repositorio
+
+### 📥 Clonar el repositorio
+
+```bash
+git clone https://github.com/Rodrigo-Suarez/user-management.git
+cd user-management
+```
+
+---
+
 ### 🔙 Backend (NestJS)
 
 1. Navegar al directorio `/user-management/backend`
@@ -83,4 +100,3 @@ Aplicación **fullstack** desarrollada como prueba técnica para la **gestión d
 ├── /backend    → API NestJS con almacenamiento en memoria
 └── README.md   → Instrucciones y descripción del proyecto
 ```
-
